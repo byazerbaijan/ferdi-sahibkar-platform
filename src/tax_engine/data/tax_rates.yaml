@@ -1,0 +1,143 @@
+# ============================================================
+# TAX RATES — Azərbaycan Respublikası Vergi Məcəlləsi
+# Mənbə: e-qanun.az/framework/46948
+# Playbook: v1.4 | Son yeniləmə: 2026-04-10
+# ============================================================
+
+# ------------------------------------------------------------
+# GƏLIR VERGİSİ — Maddə 101 (qeyri-neft, qeyri-dövlət sektoru)
+# DİQQƏT: hər il dəyişir — açar = il
+# ------------------------------------------------------------
+income_tax:
+  2026:
+    brackets:
+      - from: 0
+        to: 2500
+        rate: 0.03
+        formula: "income * 0.03"
+      - from: 2500
+        to: 8000
+        rate: 0.10
+        formula: "75 + (income - 2500) * 0.10"
+      - from: 8000
+        to: null
+        rate: 0.14
+        formula: "625 + (income - 8000) * 0.14"
+  2027:
+    brackets:
+      - from: 0
+        to: 2500
+        rate: 0.05
+        formula: "income * 0.05"
+      - from: 2500
+        to: 8000
+        rate: 0.10
+        formula: "125 + (income - 2500) * 0.10"
+      - from: 8000
+        to: null
+        rate: 0.14
+        formula: "675 + (income - 8000) * 0.14"
+  2028:
+    brackets:
+      - from: 0
+        to: 2500
+        rate: 0.07
+        formula: "income * 0.07"
+      - from: 2500
+        to: 8000
+        rate: 0.10
+        formula: "175 + (income - 2500) * 0.10"
+      - from: 8000
+        to: null
+        rate: 0.14
+        formula: "725 + (income - 8000) * 0.14"
+
+# ------------------------------------------------------------
+# SADƏLƏŞDİRİLMİŞ VERGİ — Maddə 218-220
+# ------------------------------------------------------------
+simplified_tax:
+  trade:
+    rate: 0.02
+    description: "Ticarət — dövriyyənin 2%-i"
+    article: "218-220"
+  services:
+    rate: 0.04
+    description: "Xidmətlər / istehsal — gəlirin 4%-i"
+    article: "218-220"
+  threshold_azn: 200000
+  note: "200 000 AZN-dən çox dövriyyədə ƏDV məcburidir"
+
+# ------------------------------------------------------------
+# GÜZƏŞT 75% — Maddə 102.1
+# ------------------------------------------------------------
+exempt_75:
+  article: "102.1"
+  max_annual_income_azn: 45000
+  min_employees: 3
+  conditions:
+    - "İllik dövriyyə ≤ 45 000 AZN"
+    - "Orta işçi sayı ≥ 3 nəfər"
+    - "İcbari sosial sığorta borcu yoxdur"
+  exempt_ratio: 0.75
+  note_102_1_30: "3+ işçi ilə — Maddə 102.1.30"
+  note_102_1_30_1: "İşçisiz — yalnız müəyyən fəaliyyət növləri üçün — Maddə 102.1.30-1"
+
+# ------------------------------------------------------------
+# ƏDV — Maddə 159-196
+# ------------------------------------------------------------
+vat:
+  rate: 0.18
+  threshold_azn: 200000
+  reporting: "Hər ay, növbəti ayın 20-dək"
+  cashback_noncash: 0.175
+  article: "159-196"
+
+# ------------------------------------------------------------
+# SOSİAL SIĞORTA
+# ------------------------------------------------------------
+social_insurance:
+  employer_rate: 0.22
+  employee_rate: 0.03
+  ip_self_rate: 0.03
+  note: "Fərdi sahibkar özü üçün — sabit baza üzrə 3%"
+
+# ------------------------------------------------------------
+# TİBB SIĞORTASI
+# ------------------------------------------------------------
+medical_insurance:
+  employer_rate: 0.02
+  employee_rate: 0.02
+
+# ------------------------------------------------------------
+# XÜSUSİ DƏRƏCƏLƏr
+# ------------------------------------------------------------
+special_rates:
+  it_sector:
+    rate: 0.05
+    valid_until: 2032
+    article: "101"
+    description: "IT sektoru — 2032-ci ilə qədər 5%"
+  media_exempt:
+    rate: 0.00
+    valid_years: 6
+    valid_from: 2023
+    article: "102, 106"
+    description: "Media subyektləri — 6 il azadolma (2023-dən)"
+
+# ------------------------------------------------------------
+# SANKSIYALAR — Maddə 33.4, 57
+# ------------------------------------------------------------
+sanctions:
+  no_registration:
+    amount_azn: 200
+    article: "33.4"
+    description: "Uçota alınmama"
+  late_report:
+    first_azn: 40
+    repeat_azn: 80
+    article: "57"
+    description: "Hesabatın vaxtında təqdim edilməməsi"
+  tax_underreport:
+    rate_min: 0.25
+    rate_max: 0.50
+    description: "Vergi bazasının aşağı göstərilməsi"
