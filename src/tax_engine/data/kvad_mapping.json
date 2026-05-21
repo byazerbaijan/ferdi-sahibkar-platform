@@ -1,0 +1,2950 @@
+{
+  "meta": {
+    "version": "1.0",
+    "source": "taxes.gov.az/uploads/2025/7.xls",
+    "legal_base": "NK AR 2026",
+    "total_codes": 226,
+    "regimes": {
+      "SIMPLIFIED_2": "Sadələşdirilmiş vergi 2% (ticarət) — Maddə 218-220",
+      "SIMPLIFIED_4": "Sadələşdirilmiş vergi 4% (xidmətlər) — Maddə 218-220",
+      "EXCLUDED_SIMPLIFIED": "Sadələşdirilmiş vergi QADAĞAN — Maddə 218.5",
+      "OIL_GAS": "Neft/qaz xüsusi rejim — Maddə 218.5",
+      "EXCISE": "Aksiz + 20% — Maddə 190-196",
+      "IT_SPECIAL": "IT xüsusi dərəcə 5% (2032-ə qədər) — Maddə 101",
+      "MEDIA_EXEMPT": "Media azadolma 6 il — Maddə 102, 106",
+      "GAMBLING": "Qumar oyunları xüsusi vergi — Maddə 218.5",
+      "INCOME_20": "Gəlir vergisi 20% — Maddə 99, 101"
+    }
+  },
+  "codes": [
+    {
+      "code": "01111",
+      "name": "Dənli bitkilərin becərilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01112",
+      "name": "Paxlalı bitkilərin becərilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01113",
+      "name": "Yağlı bitkilərin becərilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01120",
+      "name": "Çəltyin becərilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01131",
+      "name": "Tərəvəz, bostan, kökümeyvəli bitkilər",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01134",
+      "name": "Kartofun becərilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01150",
+      "name": "Tütünün becərilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01162",
+      "name": "Pambığın becərilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01210",
+      "name": "Üzümün becərilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01220",
+      "name": "Tropik və subtropik meyvələrin becərilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01230",
+      "name": "Sitrus meyvələrin becərilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01241",
+      "name": "Tumlu və çəyirdəkli meyvələr",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01410",
+      "name": "Südlük iribuynuzlu mal-qaranın yetişdirilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01420",
+      "name": "Digər iribuynuzlu mal-qara",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01450",
+      "name": "Qoyun və keçilərin yetişdirilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01460",
+      "name": "Donuzların yetişdirilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01471",
+      "name": "Ev quşlarının yetişdirilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01491",
+      "name": "Arıların becərilməsi, bal istehsalı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01500",
+      "name": "Heyvandarlıqla əlaqəli bitkiçilik",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01611",
+      "name": "Bitkiçilik sahəsində xidmət",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01620",
+      "name": "Heyvandarlıq sahəsində xidmət",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "01700",
+      "name": "Ovçuluq və vəhşi heyvanların yetişdirilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "01"
+    },
+    {
+      "code": "02100",
+      "name": "Meşəçilik və meşə təsərrüfatı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "02"
+    },
+    {
+      "code": "02200",
+      "name": "Ağac tədarükü",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "02"
+    },
+    {
+      "code": "02301",
+      "name": "Yabani bitən qeyri-ağac məhsulları",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "02"
+    },
+    {
+      "code": "03110",
+      "name": "Dəniz balıqçılığı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "03"
+    },
+    {
+      "code": "03120",
+      "name": "Çaylarda, göllərdə balıqçılıq",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "03"
+    },
+    {
+      "code": "03210",
+      "name": "Dəniz balıqyetişdirilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "03"
+    },
+    {
+      "code": "03220",
+      "name": "Şirin su hövzələrində balıqyetişdirmə",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "03"
+    },
+    {
+      "code": "05100",
+      "name": "Daş kömürün hasilatı",
+      "regime": "EXCISE",
+      "rate": "Aksiz+20%",
+      "articles": [
+        "190",
+        "191",
+        "218.5"
+      ],
+      "exempt75": false,
+      "section": "05"
+    },
+    {
+      "code": "06100",
+      "name": "Xam neftin hasilatı",
+      "regime": "OIL_GAS",
+      "rate": "20%/spesrежim",
+      "articles": [
+        "218.5",
+        "105",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "06"
+    },
+    {
+      "code": "06200",
+      "name": "Təbii qaz hasilatı",
+      "regime": "OIL_GAS",
+      "rate": "20%/spesrежim",
+      "articles": [
+        "218.5",
+        "105",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "06"
+    },
+    {
+      "code": "07100",
+      "name": "Dəmir filizinin hasilatı",
+      "regime": "OIL_GAS",
+      "rate": "20%/spesrежim",
+      "articles": [
+        "218.5",
+        "105",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "07"
+    },
+    {
+      "code": "08111",
+      "name": "Dekorativ və tikinti daşlarının hasilatı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "08"
+    },
+    {
+      "code": "08121",
+      "name": "Çınqıl və qumun hasilatı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "08"
+    },
+    {
+      "code": "08930",
+      "name": "Duz hasilatı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "08"
+    },
+    {
+      "code": "09101",
+      "name": "Neft və təbii qaz hasilatı sahəsində xidmətlər",
+      "regime": "OIL_GAS",
+      "rate": "20%/spesrежim",
+      "articles": [
+        "218.5",
+        "105",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "09"
+    },
+    {
+      "code": "10110",
+      "name": "Ət istehsalı və konservləşdirilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "10"
+    },
+    {
+      "code": "10131",
+      "name": "Kolbasa, sosiska istehsalı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "10"
+    },
+    {
+      "code": "10201",
+      "name": "Balıq məhsullarının istehsalı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "10"
+    },
+    {
+      "code": "10320",
+      "name": "Meyvə və tərəvəz şirələrinin istehsalı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "10"
+    },
+    {
+      "code": "10510",
+      "name": "Süd və süd məhsullarının istehsalı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "10"
+    },
+    {
+      "code": "10710",
+      "name": "Çörək istehsalı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "10"
+    },
+    {
+      "code": "10830",
+      "name": "Çay və kofe istehsalı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "10"
+    },
+    {
+      "code": "10850",
+      "name": "Hazır yeməklərin istehsalı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "10"
+    },
+    {
+      "code": "11011",
+      "name": "Distillə edilmiş spirtli içkilər",
+      "regime": "EXCISE",
+      "rate": "Aksiz+20%",
+      "articles": [
+        "190",
+        "191",
+        "192",
+        "218.5"
+      ],
+      "exempt75": false,
+      "section": "11"
+    },
+    {
+      "code": "11020",
+      "name": "Üzümdən şərab istehsalı",
+      "regime": "EXCISE",
+      "rate": "Aksiz+20%",
+      "articles": [
+        "190",
+        "191",
+        "192",
+        "218.5"
+      ],
+      "exempt75": false,
+      "section": "11"
+    },
+    {
+      "code": "11050",
+      "name": "Pivə istehsalı",
+      "regime": "EXCISE",
+      "rate": "Aksiz+20%",
+      "articles": [
+        "190",
+        "191",
+        "192",
+        "218.5"
+      ],
+      "exempt75": false,
+      "section": "11"
+    },
+    {
+      "code": "11071",
+      "name": "Mineral sular və digər suların istehsalı",
+      "regime": "EXCISE",
+      "rate": "Aksiz+20%",
+      "articles": [
+        "190",
+        "191",
+        "192",
+        "218.5"
+      ],
+      "exempt75": false,
+      "section": "11"
+    },
+    {
+      "code": "12000",
+      "name": "Tütün məmulatlarının istehsalı",
+      "regime": "EXCISE",
+      "rate": "Aksiz+20%",
+      "articles": [
+        "190",
+        "191",
+        "192",
+        "218.5"
+      ],
+      "exempt75": false,
+      "section": "12"
+    },
+    {
+      "code": "19200",
+      "name": "Təmizlənmiş neft məhsullarının istehsalı",
+      "regime": "OIL_GAS",
+      "rate": "20%/spesrежim",
+      "articles": [
+        "218.5",
+        "105",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "19"
+    },
+    {
+      "code": "41100",
+      "name": "Təcrübə-tikinti işləri",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "41"
+    },
+    {
+      "code": "41200",
+      "name": "Yaşayış və qeyri-yaşayış binalarının tikintisi",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "41"
+    },
+    {
+      "code": "42110",
+      "name": "Avtomobil yolları və küçələrin salınması",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "42"
+    },
+    {
+      "code": "42120",
+      "name": "Dəmir yolları tikintisi",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "42"
+    },
+    {
+      "code": "42210",
+      "name": "Boru kəmərlərinin tikintisi",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "42"
+    },
+    {
+      "code": "43111",
+      "name": "Binaların sökülməsi",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "43"
+    },
+    {
+      "code": "43211",
+      "name": "Elektrik quraşdırma işləri",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "43"
+    },
+    {
+      "code": "43221",
+      "name": "Sanitar-texniki işlər, istilik sistemləri",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "43"
+    },
+    {
+      "code": "43310",
+      "name": "Suvaq işləri",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "43"
+    },
+    {
+      "code": "43320",
+      "name": "Xarratlıq və dülgərlik işləri",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "43"
+    },
+    {
+      "code": "43340",
+      "name": "Rəngləmə və şüşə salma işləri",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "43"
+    },
+    {
+      "code": "43990",
+      "name": "İxtisaslaşdırılmış tikinti işləri",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "43"
+    },
+    {
+      "code": "45111",
+      "name": "Avtomobillərin topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "45"
+    },
+    {
+      "code": "45112",
+      "name": "Avtomobillərin pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "45"
+    },
+    {
+      "code": "45200",
+      "name": "Avtomobillərə texniki xidmət və təmir",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "45"
+    },
+    {
+      "code": "45310",
+      "name": "Avtomobillər üçün hissələrin topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "45"
+    },
+    {
+      "code": "45320",
+      "name": "Avtomobillər üçün hissələrin pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "45"
+    },
+    {
+      "code": "46110",
+      "name": "Kənd təs. xammallarının topdan satışı (agentlik)",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46210",
+      "name": "Taxıl, tütün, toxum və yem topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46310",
+      "name": "Meyvə və tərəvəzin topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46320",
+      "name": "Ət və ət məhsullarının topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46340",
+      "name": "Alkoqollu və digər içkilərin topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46380",
+      "name": "Sair ərzaq məhsullarının topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46420",
+      "name": "Geyim və ayaqqabının topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46430",
+      "name": "Elektrik-məişət mallarının topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46460",
+      "name": "Əczaçılıq mallarının topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46510",
+      "name": "Kompüterlərin topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46711",
+      "name": "Yanacağın topdan satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "46901",
+      "name": "İxtisaslaşdırılmamış topdansatış",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "46"
+    },
+    {
+      "code": "47111",
+      "name": "Yeyinti məhsullarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47112",
+      "name": "Etil spirti və alkoqollu içkilərin pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47210",
+      "name": "Meyvə və tərəvəz pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47220",
+      "name": "Ət və ət məhsullarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47240",
+      "name": "Çörək-bulka və qənnadi pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47250",
+      "name": "Alkoqollu içkilərin pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47260",
+      "name": "Tütün məmulatlarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47290",
+      "name": "Digər ərzaq məhsullarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47411",
+      "name": "Kompüterlərin pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47420",
+      "name": "Telekommunikasiya avadanlıqlarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47510",
+      "name": "Toxuculuq məmulatlarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47541",
+      "name": "Elektrik-məişət mallarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47542",
+      "name": "Mobil telefonların pərakəndə satışı və təmiri",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47610",
+      "name": "Kitabların pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47640",
+      "name": "İdman mallarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47711",
+      "name": "Geyimlərin pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47720",
+      "name": "Ayaqqabı və dəri məmulatlarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47730",
+      "name": "Əczaçılıq mallarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47750",
+      "name": "Kosmetika və ətiriyyat mallarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47770",
+      "name": "Saatlar və zərgərlik məmulatlarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47810",
+      "name": "Bazarlarda ərzaq məhsullarının pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "47910",
+      "name": "Poçt və internet pərakəndə satışı",
+      "regime": "SIMPLIFIED_2",
+      "rate": "2%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "47"
+    },
+    {
+      "code": "49100",
+      "name": "Şəhərlərarasi dəmir yolu xətti ilə sərnişin daşınması",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "49"
+    },
+    {
+      "code": "49201",
+      "name": "Dəmir yolu vasitəsi ilə yük daşınması",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "49"
+    },
+    {
+      "code": "49310",
+      "name": "Şəhər və şəhərətrafı sərnişin nəqliyyatı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "49"
+    },
+    {
+      "code": "49320",
+      "name": "Taksi fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "49"
+    },
+    {
+      "code": "49411",
+      "name": "Yük avtomobil nəqliyyatlarının fəaliyyəti",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "49"
+    },
+    {
+      "code": "49413",
+      "name": "Beynəlxalq yük daşınması",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "49"
+    },
+    {
+      "code": "50101",
+      "name": "Dəniz nəqliyyatı ilə sərnişin daşınması",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "50"
+    },
+    {
+      "code": "50201",
+      "name": "Dəniz nəqliyyatı ilə yük daşınması",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "50"
+    },
+    {
+      "code": "51100",
+      "name": "Hava nəqliyyatı ilə sərnişin daşınması",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "51"
+    },
+    {
+      "code": "52101",
+      "name": "Saxlama və anbarlara yığma",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "52"
+    },
+    {
+      "code": "52210",
+      "name": "Yerüstü nəqliyyatların yardımçı fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "52"
+    },
+    {
+      "code": "52292",
+      "name": "Gömrük brokeri və daşıyıcısı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "52"
+    },
+    {
+      "code": "53101",
+      "name": "Poçt fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "53"
+    },
+    {
+      "code": "53200",
+      "name": "Sair poçt və kuryer fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "53"
+    },
+    {
+      "code": "55100",
+      "name": "Mehmanxanalar və oxşar yerlər",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "55"
+    },
+    {
+      "code": "55200",
+      "name": "Kiçik yaylaq evləri və qısa müddət qalmaq",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "55"
+    },
+    {
+      "code": "56100",
+      "name": "Restoranlar və yeməklərin çatdırılması",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "56"
+    },
+    {
+      "code": "56102",
+      "name": "Şadlıq evlərinin xidmətləri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "56"
+    },
+    {
+      "code": "56103",
+      "name": "Çayxanalar",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "56"
+    },
+    {
+      "code": "56210",
+      "name": "Hazır yeməklərin göndərilməsi (catering)",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "56"
+    },
+    {
+      "code": "56300",
+      "name": "Barlar — içkilərin satışı",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "56"
+    },
+    {
+      "code": "58110",
+      "name": "Kitab nəşri",
+      "regime": "MEDIA_EXEMPT",
+      "rate": "0% (6 il)",
+      "articles": [
+        "102",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "58"
+    },
+    {
+      "code": "58130",
+      "name": "Qəzet nəşri",
+      "regime": "MEDIA_EXEMPT",
+      "rate": "0% (6 il)",
+      "articles": [
+        "102",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "58"
+    },
+    {
+      "code": "58140",
+      "name": "Jurnal və dövri nəşrlərin dərc edilməsi",
+      "regime": "MEDIA_EXEMPT",
+      "rate": "0% (6 il)",
+      "articles": [
+        "102",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "58"
+    },
+    {
+      "code": "59110",
+      "name": "Kinofilmlərin, video və TV proqramlarının istehsalı",
+      "regime": "MEDIA_EXEMPT",
+      "rate": "0% (6 il)",
+      "articles": [
+        "102",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "59"
+    },
+    {
+      "code": "59120",
+      "name": "Kino və video proqramlarının hazırlanması",
+      "regime": "MEDIA_EXEMPT",
+      "rate": "0% (6 il)",
+      "articles": [
+        "102",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "59"
+    },
+    {
+      "code": "59200",
+      "name": "Səsyazma və musiqi nəşrləri",
+      "regime": "MEDIA_EXEMPT",
+      "rate": "0% (6 il)",
+      "articles": [
+        "102",
+        "106"
+      ],
+      "exempt75": false,
+      "section": "59"
+    },
+    {
+      "code": "60100",
+      "name": "Radioverilişlərin translyasiya edilməsi",
+      "regime": "INCOME_20",
+      "rate": "20%",
+      "articles": [
+        "99",
+        "101"
+      ],
+      "exempt75": true,
+      "section": "60"
+    },
+    {
+      "code": "60200",
+      "name": "Televiziya proqramlarının translyasiyası",
+      "regime": "INCOME_20",
+      "rate": "20%",
+      "articles": [
+        "99",
+        "101"
+      ],
+      "exempt75": true,
+      "section": "60"
+    },
+    {
+      "code": "61101",
+      "name": "Simlı telekommunikasiya fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "61"
+    },
+    {
+      "code": "61201",
+      "name": "Simsiz telekommunikasiya fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "61"
+    },
+    {
+      "code": "61902",
+      "name": "İnternet rabitəsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "61"
+    },
+    {
+      "code": "62010",
+      "name": "Proqram təminatının işlənməsi",
+      "regime": "IT_SPECIAL",
+      "rate": "5% (2032-ə qədər)",
+      "articles": [
+        "101",
+        "102"
+      ],
+      "exempt75": false,
+      "section": "62"
+    },
+    {
+      "code": "62021",
+      "name": "Hesablama texnikası üzrə məsləhətlər",
+      "regime": "IT_SPECIAL",
+      "rate": "5% (2032-ə qədər)",
+      "articles": [
+        "101",
+        "102"
+      ],
+      "exempt75": false,
+      "section": "62"
+    },
+    {
+      "code": "62030",
+      "name": "Hesablama sistemlərinin idarə edilməsi",
+      "regime": "IT_SPECIAL",
+      "rate": "5% (2032-ə qədər)",
+      "articles": [
+        "101",
+        "102"
+      ],
+      "exempt75": false,
+      "section": "62"
+    },
+    {
+      "code": "62090",
+      "name": "Məlumat texnologiyaları sahəsində sair fəaliyyət",
+      "regime": "IT_SPECIAL",
+      "rate": "5% (2032-ə qədər)",
+      "articles": [
+        "101",
+        "102"
+      ],
+      "exempt75": false,
+      "section": "62"
+    },
+    {
+      "code": "63110",
+      "name": "Məlumatların işlənməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "63"
+    },
+    {
+      "code": "63120",
+      "name": "Web səhifələrindən istifadə (internet portallar)",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "63"
+    },
+    {
+      "code": "63991",
+      "name": "Sair informasiya xidmətləri",
+      "regime": "IT_SPECIAL",
+      "rate": "5% (2032-ə qədər)",
+      "articles": [
+        "101",
+        "102"
+      ],
+      "exempt75": false,
+      "section": "63"
+    },
+    {
+      "code": "64190",
+      "name": "Digər pul vasitəçiliyi (banklar)",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "64"
+    },
+    {
+      "code": "64910",
+      "name": "Maliyyə lizinqi",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "64"
+    },
+    {
+      "code": "64920",
+      "name": "Kreditin verilməsi",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "64"
+    },
+    {
+      "code": "64922",
+      "name": "Lombardların fəaliyyəti",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "64"
+    },
+    {
+      "code": "65110",
+      "name": "Həyatın sığortası",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "65"
+    },
+    {
+      "code": "65120",
+      "name": "Sığortanın sair növləri",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "65"
+    },
+    {
+      "code": "66121",
+      "name": "Fond bazarı və birja əməliyyatları",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "66"
+    },
+    {
+      "code": "66220",
+      "name": "Sığorta agentləri və makerləri",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "66"
+    },
+    {
+      "code": "68100",
+      "name": "Şəxsi daşınmaz əmlakın alınması və satılması",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "68"
+    },
+    {
+      "code": "68200",
+      "name": "Daşınmaz əmlakın kirayəyə verilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "68"
+    },
+    {
+      "code": "68310",
+      "name": "Daşınmaz əmlakla əməliyyatlar agentlikləri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "68"
+    },
+    {
+      "code": "69100",
+      "name": "Hüquq sahəsində fəaliyyət",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "69"
+    },
+    {
+      "code": "69102",
+      "name": "Xüsusi notariusların fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "69"
+    },
+    {
+      "code": "69103",
+      "name": "Vəkillik fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "69"
+    },
+    {
+      "code": "69201",
+      "name": "Mühasibat uçotu və vergilər üzrə məsləhətlər",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "69"
+    },
+    {
+      "code": "69202",
+      "name": "Auditor fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "69"
+    },
+    {
+      "code": "70210",
+      "name": "İctimai əlaqələrin saxlanılması (PR)",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "70"
+    },
+    {
+      "code": "70220",
+      "name": "Kommersiya və idarəetmə məsləhətlər",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "70"
+    },
+    {
+      "code": "71111",
+      "name": "Memarlıq sahəsində fəaliyyət",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "71"
+    },
+    {
+      "code": "71112",
+      "name": "Layihə işləri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "71"
+    },
+    {
+      "code": "71120",
+      "name": "Mühəndis axtarışları və texniki məsləhətlər",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "71"
+    },
+    {
+      "code": "72190",
+      "name": "Təbii və texniki elmlər sahəsində tədqiqatlar",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "72"
+    },
+    {
+      "code": "73110",
+      "name": "Reklam agentliklərinin fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "73"
+    },
+    {
+      "code": "73120",
+      "name": "KİV reklam xidməti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "73"
+    },
+    {
+      "code": "74100",
+      "name": "İxtisaslaşdırılmış dizayn fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "74"
+    },
+    {
+      "code": "74200",
+      "name": "Fotoqrafiya sahəsində fəaliyyət",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "74"
+    },
+    {
+      "code": "74300",
+      "name": "Tərcümə xidmətləri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "74"
+    },
+    {
+      "code": "74900",
+      "name": "Sair peşəkar, elmi və texniki fəaliyyət",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "74"
+    },
+    {
+      "code": "75000",
+      "name": "Baytarlıq fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "75"
+    },
+    {
+      "code": "77110",
+      "name": "Minik avtomobillərinin icarəsi və lizinqi",
+      "regime": "EXCLUDED_SIMPLIFIED",
+      "rate": "20%",
+      "articles": [
+        "218.5",
+        "99",
+        "105"
+      ],
+      "exempt75": false,
+      "section": "77"
+    },
+    {
+      "code": "77210",
+      "name": "İdman və istirahət malları icarəsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "77"
+    },
+    {
+      "code": "77310",
+      "name": "Kənd təs. avadanlıqlarının kirayəsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "77"
+    },
+    {
+      "code": "77400",
+      "name": "İntellektual mülkiyyətin icarəsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "77"
+    },
+    {
+      "code": "78100",
+      "name": "İşə düzəltmə agentlikləri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "78"
+    },
+    {
+      "code": "79110",
+      "name": "Səyahət agentliklərinin fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "79"
+    },
+    {
+      "code": "79120",
+      "name": "Turoperatorların fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "79"
+    },
+    {
+      "code": "80100",
+      "name": "Şəxsi mühafizəçilər və mühafizə büroları",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "80"
+    },
+    {
+      "code": "81210",
+      "name": "Binaların əsaslı təmizlənməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "81"
+    },
+    {
+      "code": "81220",
+      "name": "İstehsal və yaşayış binalarının təmizlənməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "81"
+    },
+    {
+      "code": "81300",
+      "name": "Mənzərələrin dəyişdirilməsi xidmətləri (landşaft)",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "81"
+    },
+    {
+      "code": "82110",
+      "name": "İnzibati xidmətlərin kompleks fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "82"
+    },
+    {
+      "code": "82200",
+      "name": "Telefon məlumat mərkəzləri (call center)",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "82"
+    },
+    {
+      "code": "82300",
+      "name": "Konfransların və sərgilərin təşkili",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "82"
+    },
+    {
+      "code": "85100",
+      "name": "Məktəbəqədər təhsil",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "85"
+    },
+    {
+      "code": "85311",
+      "name": "Ümumi orta təhsil",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "85"
+    },
+    {
+      "code": "85312",
+      "name": "Hazırlıq kurslarının fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "85"
+    },
+    {
+      "code": "85320",
+      "name": "Orta texniki və peşə təhsili",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "85"
+    },
+    {
+      "code": "85420",
+      "name": "Ali təhsil",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "85"
+    },
+    {
+      "code": "85510",
+      "name": "Bədən tərbiyyəsi və idman təhsili",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "85"
+    },
+    {
+      "code": "85520",
+      "name": "Mədəniyyət təhsili",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "85"
+    },
+    {
+      "code": "85530",
+      "name": "Sürücü hazırlayan məktəblər",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "85"
+    },
+    {
+      "code": "85590",
+      "name": "Sair təhsil fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "85"
+    },
+    {
+      "code": "86100",
+      "name": "Xəstəxanaların fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "86"
+    },
+    {
+      "code": "86210",
+      "name": "Ümumi həkim praktikası",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "86"
+    },
+    {
+      "code": "86220",
+      "name": "Xüsusi həkim praktikası",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "86"
+    },
+    {
+      "code": "86230",
+      "name": "Stomatologiya fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "86"
+    },
+    {
+      "code": "86900",
+      "name": "Səhiyyə sahəsində sair fəaliyyət",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "86"
+    },
+    {
+      "code": "87300",
+      "name": "Qocalar üçün sosial xidmətlər",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "87"
+    },
+    {
+      "code": "88910",
+      "name": "Uşaqlara gündüz vaxtı qulluq",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "88"
+    },
+    {
+      "code": "90010",
+      "name": "Səhnə sənəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "90"
+    },
+    {
+      "code": "90012",
+      "name": "Musiqiçilər",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "90"
+    },
+    {
+      "code": "90019",
+      "name": "Toylarda aparıcı, çalğıçı, rəqqas, aşıq",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "90"
+    },
+    {
+      "code": "90030",
+      "name": "İncəsənətin sair sahələri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "90"
+    },
+    {
+      "code": "91010",
+      "name": "Kitabxana və arxivlərin fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "91"
+    },
+    {
+      "code": "91020",
+      "name": "Muzeylərin fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "91"
+    },
+    {
+      "code": "92000",
+      "name": "Həvəsləndirici oyunlar — kazino, lotereya",
+      "regime": "GAMBLING",
+      "rate": "20%+spesvergi",
+      "articles": [
+        "218.5",
+        "99"
+      ],
+      "exempt75": false,
+      "section": "92"
+    },
+    {
+      "code": "93110",
+      "name": "İdman obyektlərinin idarə edilməsi",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "93"
+    },
+    {
+      "code": "93120",
+      "name": "İdman klublarının fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "93"
+    },
+    {
+      "code": "93130",
+      "name": "Fitness klublarının fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "93"
+    },
+    {
+      "code": "93210",
+      "name": "İstirahət və əyləncə parkları",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "93"
+    },
+    {
+      "code": "93290",
+      "name": "İstirahət və əyləncə təşkili sair fəaliyyət",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "93"
+    },
+    {
+      "code": "95110",
+      "name": "Kompüterlərin və periferiya avadanlıqlarının təmiri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "95"
+    },
+    {
+      "code": "95120",
+      "name": "Rabitə avadanlıqlarının təmiri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "95"
+    },
+    {
+      "code": "95210",
+      "name": "Məişət elektrik avadanlıqlarının təmiri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "95"
+    },
+    {
+      "code": "95230",
+      "name": "Ayaqqabı və dəri məmulatlarının təmiri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "95"
+    },
+    {
+      "code": "95240",
+      "name": "Mebellərin təmiri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "95"
+    },
+    {
+      "code": "95251",
+      "name": "Saatlar və zərgərlik təmiri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "95"
+    },
+    {
+      "code": "96010",
+      "name": "Toxuculuq və xəz yuyulması, kimyəvi təmizlənmə",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "96"
+    },
+    {
+      "code": "96020",
+      "name": "Bərbərxana və gözəllik salonları",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "96"
+    },
+    {
+      "code": "96029",
+      "name": "Fərdi bərbər fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "96"
+    },
+    {
+      "code": "96030",
+      "name": "Dəfn mərasimlərinin təşkili",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "96"
+    },
+    {
+      "code": "96040",
+      "name": "SPA, masaj, sauna xidmətləri",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "96"
+    },
+    {
+      "code": "96090",
+      "name": "Sair fərdi xidmətlər",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "96"
+    },
+    {
+      "code": "96098",
+      "name": "Fərdi dərzi fəaliyyəti",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "96"
+    },
+    {
+      "code": "96099",
+      "name": "Ev qulluqçusu, dayə, fərdi sürücü, bağban, aşbaz",
+      "regime": "SIMPLIFIED_4",
+      "rate": "4%",
+      "articles": [
+        "218",
+        "219",
+        "220"
+      ],
+      "exempt75": true,
+      "section": "96"
+    }
+  ]
+}
