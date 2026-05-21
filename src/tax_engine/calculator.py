@@ -118,10 +118,12 @@ def calculate_income_tax(monthly_income: float, year: int = None) -> dict:
 
     # Fallback: use 2028 rates for future years
     available_years = _RATES["income_tax"]
-    if year_str not in available_years:
-        year_str = max(available_years.keys())
+    # YAML loads keys as integers — try int first, then string
+    year_key = year if year in available_years else str(year)
+    if year_key not in available_years:
+        year_key = max(available_years.keys())
 
-    brackets = available_years[year_str]["brackets"]
+    brackets = available_years[year_key]["brackets"]
     income = monthly_income
     tax = 0.0
     bracket_label = ""
