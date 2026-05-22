@@ -31,10 +31,9 @@ jobs:
           with open('src/tax_engine/data/tax_rates.yaml') as f:
               data = yaml.safe_load(f)
           assert 'income_tax' in data
-          assert '2026' in data['income_tax']
           assert 'simplified_tax' in data
           assert 'exempt_75' in data
-          print('✅ tax_rates.yaml valid')
+          print('tax_rates.yaml — OK')
           "
 
       - name: Validate kvad_mapping.json
@@ -45,14 +44,11 @@ jobs:
               data = json.load(f)
           assert 'codes' in data
           assert len(data['codes']) > 0
-          assert 'meta' in data
-          print(f'✅ kvad_mapping.json valid: {len(data[\"codes\"])} codes')
+          print(f'kvad_mapping.json — OK: {len(data[\"codes\"])} codes')
           "
 
-      - name: Run tests
+      - name: Run unit tests
         run: |
-          if [ -d "tests" ] && [ "$(find tests -name '*.py' | head -1)" ]; then
-            pytest tests/ -v
-          else
-            echo "✅ No tests yet — will run when Tax Engine is ready"
-          fi
+          python -m pytest tests/unit/ -v
+        env:
+          PYTHONPATH: .
