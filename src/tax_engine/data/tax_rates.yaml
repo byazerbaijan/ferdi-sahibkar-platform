@@ -141,3 +141,28 @@ sanctions:
     rate_min: 0.25
     rate_max: 0.50
     description: "Vergi bazasının aşağı göstərilməsi"
+
+# ------------------------------------------------------------
+# DSMF — 01.01.2026-dan yeni formula (Maddə 14.5.1)
+# ------------------------------------------------------------
+dsmf:
+  rate: 0.02
+  min_ratio: 0.15
+  max_ratio: 1.00
+  min_wage_azn: 400
+  floor_azn: 60
+  cap_azn: 400
+  billing: "monthly"
+  deadline: "15th of following month"
+  article: "14.5.1"
+  note: "2% of revenue, min 60 AZN, max 400 AZN"
+
+# ------------------------------------------------------------
+# İCBARİ TİBBİ SIĞORTA — IP üçün (işçisiz)
+# ------------------------------------------------------------
+medical_insurance_ip:
+  rate_of_min_wage: 0.04
+  min_wage_azn: 400
+  fixed_monthly_azn: 16
+  billing: "monthly"
+  note: "Fixed 16 AZN/month regardless of revenue"

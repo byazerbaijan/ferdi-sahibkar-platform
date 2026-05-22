@@ -284,3 +284,126 @@ if __name__ == "__main__":
     print(f"\n🚫 Tikinti [41200] — sadələşdirilmiş qadağan")
     print(f"   İcazə  : {r5['allowed']}")
     print(f"   Səbəb  : {r5['reason']}")
+
+
+# ─────────────────────────────────────────────────────────
+# DSMF — Maddə 14.5.1 (01.01.2026-dan yeni formula)
+# ─────────────────────────────────────────────────────────
+
+def calc_dsmf(monthly_revenue: float) -> dict:
+    """
+    Calculates DSMF for IP. NEW formula from 01.01.2026.
+    2% of revenue, min 60 AZN, max 400 AZN. Per month only!
+    """
+    if monthly_revenue < 0:
+        raise ValueError("Aylıq gəlir mənfi ola bilməz")
+
+    cfg = _RATES["dsmf"]
+    raw = round(monthly_revenue * cfg["rate"], 2)
+    floor = cfg["floor_azn"]
+    cap = cfg["cap_azn"]
+    dsmf = max(floor, min(raw, cap))
+
+    return {
+        "monthly_revenue": monthly_revenue,
+        "raw_amount": raw,
+        "dsmf_amount": round(dsmf, 2),
+        "floor_applied": raw < floor,
+        "cap_applied": raw > cap,
+        "floor_azn": floor,
+        "cap_azn": cap,
+        "article": cfg["article"]
+    }
+
+
+def calc_dsmf_period(monthly_revenues: list) -> dict:
+    """
+    Calculates DSMF for multiple months.
+    IMPORTANT: each month calculated separately — never aggregate!
+    """
+    months = []
+    for i, revenue in enumerate(monthly_revenues):
+        result = calc_dsmf(revenue)
+        result["month"] = i + 1
+        months.append(result)
+
+    return {
+        "months": months,
+        "total_dsmf": round(sum(m["dsmf_amount"] for m in months), 2),
+        "total_revenue": round(sum(m["monthly_revenue"] for m in months), 2),
+        "month_count": len(months)
+    }
+
+
+# ─────────────────────────────────────────────────────────
+# İCBARİ TİBBİ SIĞORTA — IP üçün (işçisiz)
+# ─────────────────────────────────────────────────────────
+
+def calc_medical_ip(months: int = 1) -> dict:
+    """
+    Calculates mandatory medical insurance for IP (no employees).
+    Fixed: 16 AZN/month regardless of revenue.
+    """
+    if months < 1:
+        raise ValueError("Ay sayı 1-dən az ola bilməz")
+
+    cfg = _RATES["medical_insurance_ip"]
+    monthly = cfg["fixed_monthly_azn"]
+
+    return {
+        "monthly_amount": float(monthly),
+        "total_amount": float(monthly * months),
+        "months": months,
+        "note": cfg["note"]
+    }
+
+
+# ─────────────────────────────────────────────────────────
+# TAM VERGİ YÜKÜ — Bütün ödənişlər birlikdə
+# ─────────────────────────────────────────────────────────
+
+def calc_total_burden(
+    monthly_revenues: list,
+    kvad_code: str,
+    employees: int = 0,
+    has_social_debt: bool = False,
+    year: int = None
+) -> dict:
+    """
+    Full tax burden: simplified tax + DSMF + medical insurance.
+    """
+    year = year or datetime.now().year
+    total_revenue = sum(monthly_revenues)
+    months = len(monthly_revenues)
+
+    simplified = calculate_simplified(total_revenue, kvad_code)
+    exempt = check_exempt75(total_revenue, kvad_code, employees, has_social_debt)
+    dsmf_result = calc_dsmf_period(monthly_revenues)
+    medical = calc_medical_ip(months)
+
+    if simplified["allowed"] and exempt["eligible"]:
+        tax_amount = exempt["tax_with_exempt"]
+        tax_label = f"Sadələşdirilmiş {simplified['rate_pct']} + 75% güzəşt"
+    elif simplified["allowed"]:
+        tax_amount = simplified["tax_amount"]
+        tax_label = f"Sadələşdirilmiş {simplified['rate_pct']}"
+    else:
+        income_tax = calculate_income_tax(total_revenue / 12, year)
+        tax_amount = round(income_tax["annual_tax"] / 12 * months, 2)
+        tax_label = f"Gəlir vergisi (progressiv, {year})"
+
+    total = round(tax_amount + dsmf_result["total_dsmf"] + medical["total_amount"], 2)
+    effective_rate = round(total / total_revenue * 100, 2) if total_revenue > 0 else 0
+
+    return {
+        "period_months": months,
+        "total_revenue": total_revenue,
+        "breakdown": {
+            "tax": {"label": tax_label, "amount": tax_amount},
+            "dsmf": {"label": "DSMF (Maddə 14.5.1)", "amount": dsmf_result["total_dsmf"]},
+            "medical": {"label": "İcbari tibbi sığorta", "amount": medical["total_amount"]}
+        },
+        "total_burden": total,
+        "effective_rate_pct": f"{effective_rate}%",
+        "year": year
+    }
